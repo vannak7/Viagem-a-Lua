@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0px 10px 0px 10px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 16px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(136.31deg, #0A0F07 14.16%, #1F102B 53.39%, #23193E 82.63%);
+}
+
+#container {
+    padding: 40px 60px 40px 60px;
+}
+
+nav {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    text-transform: uppercase;   
+    align-items: center;
+}
+
+main {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    padding: 0px 60px 0px 60px;
+}
+
+.leftSide {
+    
+}
+
+form {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+main h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(159, 127, 219, 0.8);
+}
+
+input {
+    width: 400px;
+    padding: 1rem;
+    color: white;
+    background: #9F7FDB;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+input::placeholder {
+    color: white;
+}
+
+#name {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+#email {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+}
+#btn {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+margin-left: 10px;
+}
+
+button {
+    width: 240px;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: 1s all;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 1s all;
+}
+
+#b1 {
+    background: #7834f3;
+    color: white;
+}
+
+#b2 {
+    background: #9f7fdb;
+    color: white;
+}
