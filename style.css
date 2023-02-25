@@ -95,7 +95,7 @@ input::placeholder {
     display: flex;
     justify-content: center;
     gap: 10px;
-margin-left: 10px;
+/* margin-left: 10px; */
 }
 
 button {
